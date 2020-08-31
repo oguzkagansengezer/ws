@@ -3,16 +3,15 @@
     
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<jsp:include page="/WEB-INF/views/parts/meta.jsp"/> 
+<title>Home Page</title>
+<jsp:include page="/WEB-INF/views/parts/header.jsp"/>
 </head>
 <body>
-<jsp:include page="header.jsp"/> 
-<jsp:include page="menu.jsp"/>
-
-<jsp:include page="footer.jsp"/>
+ 
+<jsp:include page="/WEB-INF/views/parts/footer.jsp"/> 
 </body>
 </html>

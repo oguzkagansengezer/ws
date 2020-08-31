@@ -23,7 +23,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		 
+		<!--Spring Boot - Auto restart using spring-boot-devtools-->
+		<dependency>
+    	    <groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-devtools</artifactId>
+    		<optional>true</optional>
+		</dependency>
 		
+		<!--Spring Boot - Resolve jsp-pages-->
 		<dependency>
    			<groupId>org.apache.tomcat.embed</groupId>
    			<artifactId>tomcat-embed-jasper</artifactId>
