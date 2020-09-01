@@ -11,7 +11,7 @@
 <jsp:include page="/WEB-INF/views/parts/header.jsp"/>
 </head>
 <body>
- 
+ <jsp:include page="/WEB-INF/views/parts/menu.jsp"/>
 <jsp:include page="/WEB-INF/views/parts/footer.jsp"/> 
 </body>
 </html>
